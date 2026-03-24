@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-#define MAXN 15
+#define MAXN 15 //实际棋盘大小为9*9，15完全够用
 int max(int a,int b){
     return a>b?a:b;
 }
